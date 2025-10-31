@@ -31,7 +31,7 @@ public class App {
 
         input.close();
 
-        System.out.println("Fine della copia di ");
+        System.out.println("Fine della copia di " + nomeInput + " in " + nomeOutput);
 
         App.copyFile(nomeInput, nomeOutput);
     }
